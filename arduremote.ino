@@ -1,22 +1,19 @@
 /* 
- Keyboard test
  
- For the Arduino Leonardo or Micro
+ USB HID Generic Consumer Device Proof of Concept for the Arduino platform.
  
- Reads a byte from the serial port, sends a keystroke back.
- The sent keystroke is one higher than what's received, e.g.
- if you send a, you get b, send A you get B, and so forth.
+ Athanasios Douitsis, June 2013.
  
- The circuit:
- * none
+ This program has been tested on an Arduino Leonardo. 
  
- created 21 Oct 2011
- modified 27 Mar 2012
- by Tom Igoe
+ Uses parts from the examples coming with the Arduino dev enironment.
  
-This example code is in the public domain.
+ Code bellow assumes that there is an IR receiver connected at pin 11 of the device.
  
- http://www.arduino.cc/en/Tutorial/KeyboardSerial
+ Tested with a cheap IR remote from an old DVD player using a NEC IR chipset.
+ 
+ 
+ 
  */
 
 
